@@ -10,3 +10,4 @@ Route::get('/user', function (Request $request) {
 
 
 Route::get('/events', [EventController::class, 'getEvents']);
+Route::get('/events/{id}', [EventController::class, 'getEventById']);

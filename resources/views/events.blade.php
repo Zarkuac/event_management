@@ -12,7 +12,7 @@
         <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
             <div class="overflow-hidden">
                 <table id="event-table"
-                    class="min-w-full text-center text-sm font-light text-surface dark:text-white">
+                       class="min-w-full text-center text-sm font-light text-surface dark:text-white">
                     <thead
                         class="border-b border-neutral-200 bg-[#332D2D] font-medium text-white dark:border-white/10">
                     <tr>
@@ -34,7 +34,7 @@
 </body>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         fetch('/api/events')
             .then(response => response.json())
             .then(data => {
